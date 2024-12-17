@@ -1,5 +1,9 @@
 {
-    "plugins": ["language"],
+    "plugins": [
+      "language", 
+      "code", 
+      "search"
+    ],
     "languages": {
       "en": {
         "path": "en/"
