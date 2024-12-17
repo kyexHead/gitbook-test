@@ -1,21 +1,8 @@
 # Table of contents
 
+* [README](README.md)
+
 ## Languages
-- [English](/en/)
-- [中文 (Chinese)](/zh/)
 
----
-
-{% if language == 'en' %}
-
-## About
-- [About](en/README.md)
-
-{% endif %}
-
-{% if language == 'zh' %}
-
-## 关于 (Chinese)
-- [关于](zh/README.md)
-
-{% endif %}
+* [English](languages/english.md)
+* [中文 (Chinese)](languages/zhong-wen-chinese.md)
