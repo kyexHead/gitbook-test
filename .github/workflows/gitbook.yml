@@ -1,0 +1,30 @@
+name: GitBook CI/CD
+
+on:
+  push:
+    branches:
+      - main  
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '16'  
+
+    - name: Install GitBook CLI
+      run: npm install -g gitbook-cli
+
+    - name: Build GitBook
+      run: gitbook build
+
+    - name: Deploy (e.g., push to GitHub Pages)
+      run: |
+        # Add your deploy script here
+        # For example, deploy to GitHub Pages or a static hosting provider
