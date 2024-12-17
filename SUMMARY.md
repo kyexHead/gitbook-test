@@ -8,14 +8,14 @@
 
 {% if language == 'en' %}
 
-## About Kyex
+## About
 - [About](en/README.md)
 
 {% endif %}
 
 {% if language == 'zh' %}
 
-## 关于 Kyex (Chinese Version)
-- [关于](en/README.md)
+## 关于 (Chinese)
+- [关于](zh/README.md)
 
 {% endif %}

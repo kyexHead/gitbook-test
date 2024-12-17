@@ -1,3 +1,3 @@
 # Page
 
-English
+Welcome to the English version of this page!
